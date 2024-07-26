@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('Fondo1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.content-container {
+    text-align: left;
+    max-width: 600px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.description {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.blue-button {
+    background-color: #00b0f4;
+    color: #ffffff;
+}
+
+.mosaic-button {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-circular {
+    max-height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.dropdown-menu li {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.dropdown-icon {
+    color: #ffffff;
+}
